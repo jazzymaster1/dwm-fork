@@ -1,16 +1,14 @@
 /* APARENCIA:  */
-static const unsigned int borderpx  = 4;        /* border pixel of windows */
+static const unsigned int borderpx  = 4;        /* tamanho da borda das janelas */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 1;        /* 0 means bottom bar */
-static const int user_bh            = 30;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const int showbar            = 1;        /* 0 sem barra */
+static const int topbar             = 1;        /* 0 barra embaixo */
+static const int user_bh            = 0;        /* 0 fara com que o tamanho seja derminado pelo dwm, >= 1 dwm usara user_bh como determinante */
+static const unsigned int gappx     = 5;        /* espacamento padrao entre as janelas */
 static const char *fonts[]          = { "monospace:size=20" };
 static const char dmenufont[]       = "monospace:size=20";
 
-
-
-// bg
+// background
 static const char col_gray1[]       = "#222222";
 
 // inativo
@@ -62,7 +60,8 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod1Mask
+/* Mod1Mask -> tecla mestre ALT;;;;;  Mod4Mask -> tecla mestre META */
+#define MODKEY Mod1Mask		
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
