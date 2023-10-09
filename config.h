@@ -1,11 +1,12 @@
 /* APARENCIA:  */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 4;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const int user_bh            = 30;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const unsigned int gappx     = 5;        /* gaps between windows */
-static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]       = "monospace:size=10";
+static const char *fonts[]          = { "monospace:size=20" };
+static const char dmenufont[]       = "monospace:size=20";
 
 
 
@@ -16,13 +17,13 @@ static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 
 // fonte
-static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray3[]       = "#eeeeee";
 
 // tag e janela
-static const char col_gray4[]       = "#eeeeee";
+static const char col_gray4[]       = "#000000";
 
 // barra e jnela ativa 
-static const char col_cyan[]        = "#304529";
+static const char col_cyan[]        = "#ffae00";
 
 //
 static const char *colors[][3]      = {
