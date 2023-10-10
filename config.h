@@ -8,6 +8,8 @@ static const unsigned int gappx     = 5;        /* espacamento padrao entre as j
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
 
+
+// bom dia
 // background
 static const char col_gray1[]       = "#222222";
 
