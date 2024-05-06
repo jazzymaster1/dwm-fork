@@ -4,7 +4,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 sem barra */
 static const int topbar             = 1;        /* 0 barra embaixo */
 static const int user_bh            = 0;        /* 0 fara com que o tamanho seja derminado pelo dwm, >= 1 dwm usara user_bh como determinante */
-static const unsigned int gappx     = 5;        /* espacamento padrao entre as janelas */
+static const unsigned int gappx     = 0;        /* espacamento padrao entre as janelas */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
 
@@ -23,7 +23,7 @@ static const char col_gray3[]       = "#eeeeee";
 static const char col_gray4[]       = "#000000";
 
 // barra e jnela ativa 
-static const char col_cyan[]        = "#ffae00";
+static const char col_cyan[]        = "#dddddd";
 
 //
 static const char *colors[][3]      = {
